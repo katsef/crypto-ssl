@@ -1,0 +1,20 @@
+{
+	"name" : "webazon/crypto-ssl",
+	"description" : "PHP библиотека шифрования на основе OpenSSL",
+	"type" : "library",
+	"require" : {
+		"phpseclib/phpseclib" : ">3.0"
+	},
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Webazon\\CryptoSSL\\" : "src/"
+		}
+	},
+	"authors" : [
+		{
+			"name" : "Aleksey Katsef"
+		}
+	],
+	"minimum-stability" : "dev"
+}
