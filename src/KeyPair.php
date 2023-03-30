@@ -18,12 +18,12 @@ class KeyPair {
 	
 public function getPublicKey()
     {
-        return $this->publicKey;
+        return (string)$this->publicKey;
     }
 	
 public function getPrivateKey()
     {
-        return $this->privateKey;
+        return (string)$this->privateKey;
     }	
 	
 
